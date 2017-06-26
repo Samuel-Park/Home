@@ -41,6 +41,8 @@ public class HomeWork2 {
 		else {
 			if(result<0) {
 				result = result * (-1);
+				System.out.print("Input : "+x1+" "+y1+" "+x2+" "+y2+" "+x3+" "+y3+" ");
+				System.out.println("-> Output : 삼각형의 면적은 "+ result + "입니다.");
 			}
 			else {
 				System.out.print("Input : "+x1+" "+y1+" "+x2+" "+y2+" "+x3+" "+y3+" ");
